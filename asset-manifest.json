@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Bike-Center/static/css/main.1325821e.css",
+    "main.js": "/Bike-Center/static/js/main.f5610072.js",
+    "static/js/787.0e3e7243.chunk.js": "/Bike-Center/static/js/787.0e3e7243.chunk.js",
+    "static/media/доставка 1.png": "/Bike-Center/static/media/доставка 1.bad7a66a4ee89e4fe9bc.png",
+    "static/media/коробки 1.png": "/Bike-Center/static/media/коробки 1.3c8b52013598b5abd5e9.png",
+    "static/media/Group 1077239339.png": "/Bike-Center/static/media/Group 1077239339.369cd9f7ad4d526ac8dc.png",
+    "static/media/Group 1587.png": "/Bike-Center/static/media/Group 1587.54bad6d66c4737e12710.png",
+    "static/media/монета_01 2.png": "/Bike-Center/static/media/монета_01 2.a6de9c454189868bd558.png",
+    "static/media/GroupArrow.svg": "/Bike-Center/static/media/GroupArrow.4f27e7fab9477581fa470fdaa4d9ba76.svg",
+    "index.html": "/Bike-Center/index.html",
+    "main.1325821e.css.map": "/Bike-Center/static/css/main.1325821e.css.map",
+    "main.f5610072.js.map": "/Bike-Center/static/js/main.f5610072.js.map",
+    "787.0e3e7243.chunk.js.map": "/Bike-Center/static/js/787.0e3e7243.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1325821e.css",
+    "static/js/main.f5610072.js"
+  ]
+}
