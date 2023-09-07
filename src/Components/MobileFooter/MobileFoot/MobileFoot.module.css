@@ -1,0 +1,167 @@
+.block {
+    padding-left: 20px;
+    border-bottom: 1px solid hsl(0, 0%, 20%);
+
+}
+
+.a {
+    color: #FFFFFF;
+}
+
+.ul {
+    padding-left: 20px;
+}
+
+.block__market {
+    margin-left: -20px;
+    padding: 20px 15px;
+
+    background-color: #333333;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.block__markets {
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+.block__markets a {
+    padding: 15px 30px;
+    text-align: center;
+    border-radius: 7px;
+
+    background-color: #000000;
+}
+
+.block__info {
+    
+    margin-top: 30px;
+}
+
+.block__messenger {
+    margin-left: -40px;
+}
+
+.block__messenger li {
+    list-style: none;
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+
+    width: 320px;
+
+    padding: 10px;
+}
+
+.WhatsApp {
+    border-bottom: 1px solid #333333;
+}
+
+.img {
+    padding-right: 10px;
+}
+
+.button__number {
+    margin-top: 30px;
+    width: 335px;
+    height: 50px;
+    border-radius: 7px;
+    background-color: #EB5757;
+
+    text-align: center;
+}
+
+.block__help {
+    margin-left: -40px;
+    
+    border-bottom: 1px solid #333333;
+}
+
+.block__help li {
+    
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+
+    width: 320px;
+
+    padding: 10px;
+}
+
+.menu {
+    margin-left: -40px;
+}
+
+.menu li {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+
+    width: 320px;
+
+    padding: 10px;
+}
+
+.form {
+    margin-bottom: 30px;
+}
+
+.block__label {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+
+    
+    padding-right: 10px;
+}
+
+.label {
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #BDBDBD;
+}
+
+.mail {
+    margin-left: -10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    height: 37px;
+}
+
+.input {
+    padding-left: 17px;
+    height: 31px;
+    width: 305px;
+    border-radius: 7px;
+    border: 1px solid #4F4F4F;
+    background-color: #0C1111;
+    color: #FFFFFF;
+}
+
+.mail__button {
+    width: 58px;
+    height: 37px;
+    border-radius: 7px;
+    text-align: center;
+
+    background-color: #828282;
+
+    margin-top: 0px;
+    margin-left: -40px;
+}

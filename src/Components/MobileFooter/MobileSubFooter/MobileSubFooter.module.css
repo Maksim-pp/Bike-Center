@@ -1,0 +1,11 @@
+.block {
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    color:  #F2F2F2;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}

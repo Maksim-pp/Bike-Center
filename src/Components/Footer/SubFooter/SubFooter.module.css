@@ -1,0 +1,15 @@
+.block {
+    width: 100%;
+    background-color: #0C1111;
+    
+    border-top: 1px solid #333333;
+
+    color: #828282;
+}
+
+.subfooter__info {
+    padding-top: 17px;
+    padding-bottom: 17px;
+
+    margin-left: 111px;
+}

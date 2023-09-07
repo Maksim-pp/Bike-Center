@@ -1,0 +1,143 @@
+.block {
+    background-color: #000000;
+    padding: 10px 30px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+    height: 100px;
+}
+
+.icon_menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.container {
+    width: 375px;
+    color: #FFFFFF;
+}
+
+.open {
+    width: 50px;
+}
+
+.open:hover {
+    background-color: #000000;
+}
+
+.close {
+    width: 50px;
+}
+
+.close:hover {
+    background-color: #000000;
+}
+
+.menu {
+    position: absolute;
+
+    top: 120px;
+    left: 0px;
+    width: 355px;
+
+    z-index: 50;
+    background-color: #FFFFFF;
+}
+
+.block__location {
+    background-color: #333333;
+    color: #FFFFFF;
+
+    width: 375px;
+    height: 70px;
+    border-radius: 0px 0px 10px 10px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.block__location a {
+    color: #FFFFFF;
+    padding-left: 10px;
+}
+
+.subMenu__button {
+    margin-left: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    width: 335px;
+    height: 41px;
+    
+    background-color: #F2F3F5;
+    border-radius: 20px;
+
+}
+
+.button {
+    cursor: pointer;
+    text-align: center;
+    color: #000000;
+    background-color: #F2F3F5;
+    width: 161px;
+    height: 32px;
+
+    border-radius: 15px;
+
+    margin-top: 4px;
+    margin-left: 4px;
+}
+
+.button:hover {
+    background-color: #FFFFFF;
+}
+
+.ul {
+    padding-left: 20px;
+}
+
+.item {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 325px;
+    margin-bottom: 10px;
+}
+.item div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.block__product {
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    background-color: #F2F3F5;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+.product {
+    width: auto;
+}
+
+.item a {
+    text-decoration: none;
+}
+.form {
+    z-index: 60;
+}

@@ -1,0 +1,189 @@
+.block {
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    color: #FFFFFF;
+
+    margin-left: 111px;
+    width: 1688px;
+    height: 430px;
+    padding-top: 74px;
+    padding-bottom: 74px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px;
+    
+}
+
+.block div {
+    padding-right: 30px;
+}
+
+.a__footer {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.ul__footer li {
+    margin-left: -40px;
+    list-style: none;
+
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.header {
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.head {
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+
+
+.network {
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.img__WhatsApp {
+    margin-right: 5px;
+}
+
+.img__Telegram {
+    margin-right: 5px;
+}
+
+.market {
+    margin-right: -100px;
+}
+
+.store {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.block__store {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.apple {
+    background-color: #333333;
+    padding: 15px 35px;
+
+    border-radius: 10px;
+}
+
+.google {
+    background-color: #333333;
+    padding: 15px 25px;
+
+    border-radius: 10px;
+}
+
+.form {
+    margin-top: -140px;
+}
+
+.input__footer{
+    width: 510px;
+    height: 45px;
+
+    border: none;
+    border-radius: 7px;
+
+    color: #FFFFFF;
+    background-color: #4F4F4F;
+
+    padding-left: 22px;
+}
+
+.button__footer {
+    text-align: center;
+    width: 160px;
+    height: 47px;
+    border-radius: 7px;
+
+    margin-left: -20px;
+
+    background-color: #333333;
+}
+
+
+.block__network {
+    margin-top: -70px;
+}
+
+.img__VK {
+    margin-left: -10px;
+}
+
+.img__YouTube {
+    margin-left: 10px;
+}
+
+.img__TikTok {
+    margin-left: 10px;
+}
+
+@media (max-width: 768px) {
+    .block {
+        height: auto;
+        width: 578px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .block div {
+        padding-right: 0px;
+    }
+
+    .input__footer {
+        
+        width: 260px;
+    }
+
+    .form {
+        margin-top: 0px;
+    }
+
+    .market {
+
+        margin-right: 0px;
+    }
+    .block__network {
+        margin-top: -100px;
+    }
+
+}

@@ -1,0 +1,83 @@
+.block {
+    background-color: #FFFFFF;
+    padding: 0px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+    height: 850px;
+    z-index: 10;
+    overflow-y: scroll;
+    
+    width: 345px;
+}
+
+.block::-webkit-scrollbar {
+    width: 2px;
+}
+
+.block::-webkit-scrollbar-track {
+    background-color: #E0E0E0;
+}
+
+.block::-webkit-scrollbar-thumb {
+    background-color: #333333;
+}
+
+.item {
+    height: 40px;
+    width: 250px;
+    padding: 15px;
+    
+    list-style: none;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+
+    border-bottom: 1px solid #F5F5F5;
+    border-radius: 5px;
+
+}
+
+.item:hover {
+    background-color: #F2F3F5;
+    cursor: pointer;
+}
+
+.item div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.block__product {
+    width: 40px;
+    height: 40px;
+
+    padding: 3px;
+
+    border-radius: 7px;
+
+    background-color: #F2F3F5;
+}
+
+.item a {
+    text-decoration: none;
+}
+
+.item a:hover {
+    color: #EA5455;
+}
+
+.product {
+    width: 100%;
+}
+
+@media (max-width: 1200px) {
+
+    .block{
+        height: 500px;
+    }
+}

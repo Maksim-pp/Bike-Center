@@ -1,0 +1,155 @@
+.block {
+    margin-left: 20px;
+    width: 335px;
+}
+
+.h1 {
+    font-family: Open Sans;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.number {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0.01em;
+    text-align: left;
+
+}
+
+.h2 {
+    font-family: Open Sans;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0.01em;
+    text-align: left;
+}
+
+.ul {
+    padding-left: 20px;
+}
+
+.block__help {
+    line-height: 0.01;
+}
+
+.block__help h2 {
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0.01em;
+    text-align: left;
+}
+
+.button__mobile {
+    text-align: center;
+
+    width: 335px;
+    height: 52px;
+
+    border-radius: 10px;
+
+    background-color: #0C1111;
+}
+
+.block__delivery {
+    background: linear-gradient(179.09deg, #E2E6EB 0.73%, #F3F1F5 69.6%);
+
+    width: 305px;
+    height: 295px;
+
+    border-radius: 20px;
+
+    margin-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
+
+.block__delivery button {
+    width: 275px;
+    height: 52px;
+    border-radius: 10px;
+
+    background-color: #000000;
+
+    text-align: center;
+}
+
+.block__delivery img {
+    margin-top: -30px;
+    width: 260px;
+    height: 143px;
+}
+
+.block__bonus {
+    background: linear-gradient(90deg, #FF8C00 0%, #FFBD00 100%);
+
+    width: 305px;
+    height: 146px;
+    border-radius: 20px;
+
+    margin-top: 30px;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+
+    color: #FFFFFF;
+}
+
+.block__cash {
+    padding-left: 0px;
+    width: 335px;
+}
+
+.block__cash li {
+    height: 48px;
+
+    cursor: pointer;
+
+    list-style: none;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+
+    border-bottom: 1px solid #ECECEC;
+}
+
+.block__refund {
+    background: linear-gradient(179.09deg, #E2E6EB 0.73%, #F3F1F5 69.6%);
+
+
+    width: 305px;
+    border-radius: 20px;
+    margin-top: 60px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+}
+
+.block__refund img {
+    margin-top: -30px;
+}
+
+.button__warranty {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+    width: 335px;
+    height: 52px;
+    border-radius: 10px;
+}

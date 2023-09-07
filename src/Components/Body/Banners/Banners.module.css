@@ -1,0 +1,368 @@
+.block {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 16px; 
+
+    margin-top: 50px;
+}
+
+button {
+    cursor: pointer;
+
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+
+
+    background-color: #0C1111;
+    color: #FFFFFF;
+
+    border-radius: 10px;
+    border: none;
+    padding: 12px;
+
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #27AE60;
+}
+
+.button__warranty {
+
+    height: 52px;
+
+    padding-left: 50px;
+
+    align-self: center;
+
+    margin-right: 40px;
+
+    width:266px;
+    height:52px;
+}
+
+
+
+.heading__help {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0.01em;
+
+    padding-top: 150px;
+}
+
+.heading__cash {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0.01em;
+
+    padding-top: 20px;
+}
+
+.heading__bonus {
+    padding-top: 20px;
+
+    font-family: Open Sans;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 35px;
+}
+
+.heading__warranty {
+    padding-top: 15px;
+
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0.01em;
+}
+
+.heading__refund {
+    padding-top: 30px;
+
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0.01em;
+}
+
+.heading__delivery {
+    padding-top: 30px;
+
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0.01em;
+}
+
+.block__help {
+    width: 400px;
+    height: 326px;
+
+    border-radius: 20px;
+
+    background: linear-gradient(90deg, #E2E6EB 19.77%, #F3F1F5 62.29%);
+
+    padding-left: 50px;
+
+}
+
+.block__cash {
+    width: 400px;
+    height: 326px;
+
+    border-radius: 20px;
+
+    background: linear-gradient(90deg, #E2E6EB 19.77%, #F3F1F5 62.29%);
+
+    padding-left: 50px;
+}
+
+a {
+    color: #333333;
+}
+
+.block__cash ul {
+    margin-left: -40px;
+}
+
+.block__cash ul li {
+    list-style: none;
+
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    text-align: left;
+
+    padding-bottom: 20px;
+
+}
+
+.block__bonus {
+    width: 700px;
+    height: 173px;
+
+    border-radius: 20px;
+
+    padding-left: 50px;
+
+    background: linear-gradient(90deg, #FF8C00 0%, #FFBD00 77.38%);
+
+    color: #FFFFFF;
+
+}
+
+.block__bonus ul li {
+    margin-left: -20px;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.block__warranty {
+    width: 700px;
+    height: 135px;
+
+    border-radius: 20px;
+
+    background: linear-gradient(90deg, #E2E6EB 19.77%, #F3F1F5 62.29%);
+
+    margin-top: 16px;
+    padding-left: 50px;
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.block__refund {
+    width: 866px;
+    height: 222px;
+
+    border-radius: 20px;
+
+    background: linear-gradient(90deg, #E2E6EB 19.77%, #F3F1F5 62.29%);
+
+    padding-left: 50px;
+}
+
+.block__delivery {
+    width: 700px;
+    height: 221px;
+
+    border-radius: 20px;
+
+    background: linear-gradient(90deg, #E2E6EB 19.77%, #F3F1F5 62.29%);
+
+    padding-left: 50px;
+}
+
+
+.img__help {
+    position: absolute;
+    width: 253px;
+    height: 198px;
+    margin-top: -25px;
+    margin-left: 40px;
+}
+
+.img__cash {
+    position: absolute;
+    width: 206px;
+    height: 207px;
+
+    margin-top: -30px;
+    margin-left: 210px;
+}
+
+.img__vector {
+    position: absolute;
+    width: 145px;
+    height: 146px;
+
+    margin-top: 13px;
+    margin-left: 472px;
+}
+
+.img__mouthpiece {
+    position: absolute;
+    width: 82px;
+    height: 70px;
+    margin-top: 78px;
+    margin-left: 570px;
+}
+
+.img__coin_first {
+    position: absolute;
+    width: 42px;
+    height: 38px;
+
+    margin-top: 45px;
+    margin-left: 632px;
+}
+
+.img__coin_second {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+
+    margin-top: 95px;
+    margin-left: 372px;
+}
+
+.img__coin_third {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+
+    margin-top: -18px;
+    margin-left: 392px;
+}
+
+.img__arrow {
+    position: absolute;
+    margin-left: 30px;
+}
+
+.img__Refund {
+    position: absolute;
+    width: 291px;
+    height: 191px;
+
+    margin-top: 15px;
+    margin-left: 470px;
+}
+
+.img__delivery {
+    position: absolute;
+    width: 337px;
+    height: 185px;
+
+    margin-top: 15px;
+    margin-left: 312px;
+}
+
+@media (max-width: 768px) {
+    .block__bonus {
+        width: 558px;
+    }
+
+    .block__warranty {
+        width: 560px;
+        height: 222px;
+    }
+
+    .block__delivery {
+        width: 260px;
+        padding: 20px;
+    }
+
+    .block__refund {
+        width: 258px;
+        padding: 20px;
+    }
+
+    .block__help {
+        width: 560px;
+    }
+
+    .block__cash {
+        width: 560px;
+    }
+
+    .img__delivery{
+        display: none;
+    }
+
+    .img__Refund {
+        display: none;
+    }
+    
+    .img__coin_third{
+        display: none;
+    }
+
+    .img__coin_second{
+        display: none;
+    }
+
+    .img__coin_first{
+        display: none;
+    }
+
+    .img__vector {
+        display: none;
+    }
+    
+    .img__mouthpiece {
+        display: none;
+    }
+
+    .img__help {
+        margin-left: 140px;
+    }
+    
+    .img__cash {
+        position: absolute;
+        width: 206px;
+        height: 207px;
+    
+        margin-top: 60px;
+        margin-left: 310px;
+    }
+}

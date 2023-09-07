@@ -1,0 +1,11 @@
+.block {
+    background-color: #0C1111;
+
+    margin-top: 120px;
+}
+
+@media (max-width: 768px) {
+    .block {
+        width: 100%;
+    }
+}
